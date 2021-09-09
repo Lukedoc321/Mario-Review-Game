@@ -1,4 +1,7 @@
 console.log("Welcome!");
+
+alert("Welcome to the review game! Click on a square to select it. Then press one of the following keys:\nf : Fire\n2 : Fire x 2\nm : Mushroom\nb : Bomb\nk : King Bowser"); //Instructions
+
 var selection; //The currently selected square
 
 function selectSquare(square) {
