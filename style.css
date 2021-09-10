@@ -19,7 +19,8 @@ body {
 .label {
   font-size: 300%;
   font-weight: bold;
-  color: white;
+  color: white !important;
+  background-image: url("");
 }
 
 row {
@@ -27,24 +28,31 @@ row {
 }
 
 p {
-  color: rgba(255, 0, 0, 0.2);
+  color: white;
   font-size: 300%;
   background-color: white;
   font-weight: bold;
+  text-shadow: 0px 0px 59px rgba(0, 0, 0, 1);
   height: 100%;
   display: table-cell;
   border: 10px solid pink;
   padding: 50px;
   text-align: center;
+    
+  background-image: url("images/block.png");
+  background-size: cover;
+  background-position: center;
 }
 
 p:hover {
-  opacity: 75%;
+  opacity: 20%;
 }
 
 #corner {
   background-color: pink;
+  background-image: url("");
 }
 
 #twoB {
+
 }
